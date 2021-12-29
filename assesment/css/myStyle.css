@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("../images/header.png");
+    height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1{
+    position: absolute;
+    top: 22rem;
+    left: 4rem;
+    color: #fff;
+    
+}
+.section-regular{
+    width:90%;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.section-one{
+    text-transform: capitalize;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+.section-two{
+
+}
+.section-two-ul{
+    display: flex;
+    width: 100%;
+}
+.section-two-ul h5{
+    width: 7%;
+    text-transform: capitalize;
+}
+.section-two-ul ul li{
+    margin-right: 0.6rem;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid black;
+    border-radius: 14px;
+    text-align: center;
+    
+}
+.section-two-ul ul li a{
+    color: #111;
+}
+a:hover { 
+    text-decoration: none;
+    
+}
+
+.s2-outer-box{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.s2-img{
+    width: 35%;
+}
+.s2-img img{
+    width: 100%;
+}
+.s2-content{
+    width: 38%;
+    margin-left: 1rem;
+}
+.s2-content ul{
+    margin: 1rem 0;
+    font-size: 12px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.s2-content p{
+    font-size: 14px;
+}
+
+.s2-button{
+    background: none;
+    border: 0;
+}
+.s2-main-box{
+    display: flex;
+    margin-bottom: 6rem
+}
+
+.s2-inside-box{
+    border:  1px solid red;
+    padding: 1rem;
+    background: #111;
+    color: #fff;
+}
+.s2-inside-box ul li{
+    padding-right: 10px;
+    
+}
+
+.s2-outer-box-button{
+    text-align: center;
+}
+.s2-outer-box-button button{
+    background: none;
+    padding: 0.2rem 0.9rem;
+    border-radius: 16px;
+}
